@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content=",">
+    <meta name="description" content="">
+    <title>Персональная страница</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="head">
+        <div>
+            <img src="" alt="Здесь будет находится мой баннер в формате .svg">
+        </div>
+        <h1>Персональная страница начинающего Front-end разработчика</h1>
+        <div>
+            <nav>
+                <a href="#">Главная</a>
+                <a href="#info">Обо мне</a>
+                <a href="#lessons">Моё обучение</a>
+                <a href="#message">Напишите мне</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+
+            <header>
+                <h1 id="info">Информация обо мне</h1>
+            </header>
+            <section>
+                <ul>
+                    <li><a href="#i">Где я живу</a></li>
+                    <li><a href="#lessons">Почему я решил учиться Front-end'у</a></li>
+                    <li><a href="#plans">Мои планы</a></li>
+                </ul>
+            </section>
+            <section>
+                <article>
+
+
+                    <h1 id="i">Где я живу</h1>
+                    <p>
+                        Я живу на севере Красноярского края на полуострове Таймыр. У нас тяжелый климат поэтому я планирую перебраться на материк <br> в какой-нибудь теплый регион РФ. Например в Краснодарский край. Хотя я не загадываю на перед.
+                    </p>
+
+                    <a id="lessons">
+                        <h1>Почему я решил учиться Front-end'у</h1>
+                        <p>
+                            Решил учиться потому, что хочу работаь в сфере <strong><em>IT</em></strong> и конкретно в области разрабтки сайтов. Поэтому я решил, что данная <br> профессия подойдет мне как нельзя лучше, чтобы <del>вAйти</del> <ins>войти</in> в Айти:)!
+                            </p>
+                        </a>
+                        <a id="plans">
+                            <h1>Мои планы</h1>
+                            <p>
+                                Планирую вычиться и набираться опыта в open source проектах, после того как будет не большой опыт буду пробывать устроиться <br> в какую-нибудь компанию которая занимается разработкой веб-приложений.
+                            </p>
+                        </a>
+
+                   
+                </section>
+
+
+                <footer class="time">
+                    <author>Кравчук Э.</author> <br> 
+                    <time datetime="09-07-2019">09.07.19</time>
+                </footer>
+            </article>
+        </section>
+        <section id="message">
+            <h3>Отправьте мне письмо</h3>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name-field">Имя:</label>
+                    <input type="text" name="name-field" id="name-field" placeholder="Введите имя">
+                </div>
+                <div>
+                    <label for="mail">Контакт:</label>
+                    <input type="email" name="mail" id="mail" required placeholder="Введите емэйл">
+                </div>
+                <div>
+                    <label for="comment">Сообщение:</label>
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Введите сообщение"></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="Отправить" id="">
+                </div>
+            </form>
+            <br>
+        </section>
+    </main>
+
+    <footer class="foot"> <блочная модель>
+        <div>
+            <img src="" alt="Здесь тоже будет находиться мой баннер в svg">
+        </div>
+        <nav> <!---Ошибка-->>
+            <h4>Как меня найти:</h4>
+            <div>
+                <a href="#"><img src="#" alt="logo-instagtagram"><br>Я в Instagram</a>
+            </div>
+            <div>
+                <a href="#"><img src="" alt="logo-vk"><br>Я в Vkontakte</a>
+            </div>
+            <div>
+                <a href="#"><img src="" alt="logo-fb"><br>Я в Facebook</a>
+            </div>
+        </nav>
+        <p class="phone-number"><strong>тел.:</strong> +7(***)***-**-**</p>
+        <p class="phone-number"><strong>email:</strong> eddie.kravchuk@yandex.ru</p>
+    </footer>
+</body>
+
+</html>

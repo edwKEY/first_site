@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Verdana", sans-serif;
+    src: local() url()
+}
+
+.head {
+    background-color: silver;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header nav {
+    padding: 15px;
+    text-align: center;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+main {
+    background-color: antiquewhite;
+}
+
+.time {
+    text-align: right;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.foot {
+    background-color: gray;
+}
+
+footer nav a {
+    text-decoration: none;
+}
+
+.phone-number {
+    text-align: right;
+}
